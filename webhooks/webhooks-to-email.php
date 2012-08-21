@@ -17,7 +17,7 @@ $email_body="";
 /**
  * Check if the request is from padiact
  * data comes from PadiAct in the following format: 
- * { "data": { "email": "claudiu@paditrack.com", "name": "Claudiu" }, "from": "padiact" }
+ * { "data": { "email": "claudiu@paditrack.com", "field1": "Claudiu" }, "from": "padiact" }
  */
 if(isset($_POST['from']) and  $_POST['from']=="padiact")
 {
